@@ -1,0 +1,141 @@
+import type { SiteConfig, SiteContent } from "../types";
+
+export const SITE_CONFIG: SiteConfig = {
+  title: "Jay Vora - Product | Tech",
+  author: "Jay Vora",
+  description:
+    "Game Developer turned Product Manager from Goa, India. I love working with early stage startups and help them scale from 0 to 1",
+  lang: "en",
+  siteLogo: "/jay-img-small.jpg",
+  navLinks: [
+    { text: "About", href: "#about" },
+    { text: "Experience", href: "#experience" },
+    { text: "Projects", href: "#projects" },
+  ],
+  socialLinks: [
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/marioojojo" },
+    { text: "Github", href: "https://github.com/marioojojo13" },
+  ],
+  socialImage: "/jay-img.jpg",
+  canonicalURL: "https://jay-vora.vercel.app",
+};
+
+export const SITE_CONTENT: SiteContent = {
+  hero: {
+    name: "Jay Vora",
+    specialty: "Game Developer | Product Manager",
+    summary:
+      "Game Developer turned Product Manager based in Goa, India. I love working with early stage startups and helping them scale from 0 to 1",
+    email: "marioojojo@gmail.com?subject=Hello World!",
+  },
+  about: {
+    description: `
+      Hi, I’m Jay Vora, a Game Developer turned Product Manager with a knack for crafting seamless digital experiences beyond games. With a strong background as a game developer and a product manager, I thrive at the intersection where business meets technology. Over the years, I’ve honed my skills in building robust games and applications that are user-first and push the boundaries of what is possible. My projects range from simple and replayable platformer games to making a custom no-code game engine that can make high fidelity 3D games via a browser. 
+
+      I have spent the last 10 years of my career helping early stage startups scale from 0 to 1 by wearing multiple hats as required and achieving results that help shape the product.
+    `,
+    image: "/jay-img.jpg",
+  },
+  experience: [
+    {
+      company: "TerraByte Inc",
+      roles: [
+        {
+          position: "Associate Director - Product & Tech",
+          startDate: "Mar 2023",
+          endDate: "Sept 2025",
+          summary: [
+            "Spearheaded the delivery of 5 high-impact MVPs, driving product innovation across research, design, tech, and marketing functions.",
+            "Served as Product Lead for Terra Studio, a low-code platform enabling 3D game creation directly in browsers, accelerating development cycles.",
+            "Championed hot deployment technology, enabling instant go-live of games, dramatically improving time-to-market.",
+          ],
+        }
+      ]
+    },
+    {
+      company: "PlayShifu",
+      roles: [
+        {
+          position: "Associate Product Director",
+          startDate: "Jul 2022",
+          endDate: "Mar 2023",
+          summary: [
+            "Scaled the Orboot Brand from a single product to a 3-product line (Earth, Dinos, Mars), achieving 200% product portfolio growth.",
+            "Led hands-on development of 30+ interactive games across Orboot, Plugo, and Tacto ecosystems.",
+            "Managed product development for Tacto, finalist for Toy of the Year Award 2022, from concept to market release.",
+            "Executed international playtesting across India and USA, validating product-market fit.",
+          ],
+        },
+        {
+          position: "Senior Product Manager",
+          startDate: "Jul 2021",
+          endDate: "Jun 2022",
+          summary: [
+            "Delivered the Tacto Suite of Phygital Games, leading the full product lifecycle from ideation to global launch.",
+            "Orchestrated product localization and distribution strategy, successfully entering 20+ global markets.",
+            "Collaborated closely with operations to ensure smooth product deployment and scaling.",
+          ],
+        },
+        {
+          position: "Product Manager",
+          startDate: "Apr 2020",
+          endDate: "Jun 2021",
+          summary: [
+            "Led R&D for monetization features in Orboot Earth, integrating new business models and expanding revenue streams.",
+            "Designed and released 3 new interactive games utilizing the physical globe as an input device, improving product engagement and user retention.",
+            "Worked cross functionally with design, development, and business teams to define and deliver prioritized product features.",
+          ],
+        },
+        {
+          position: "Senior Game Developer",
+          startDate: "Nov 2017",
+          endDate: "Mar 2020",
+          summary: [
+            "Architected core systems for Orboot, Tacto, and Minglings game lines, establishing a modular and scalable codebase.",
+            "Conceptualized, designed, and developed 5+ immersive games, directly contributing to user engagement.",
+            "Mentored and led a high performing game development team, driving best practices and development efficiency.",
+          ],
+        },
+      ],
+    },
+    {
+      company: "DigiFury Solutions",
+      roles: [
+        {
+          position: "Lead Game Developer",
+          startDate: "Apr 2016",
+          endDate: "Oct 2017",
+          summary: [
+              "Lead game developer on 3D Pro Badminton Challenge, developed for PNB Metlife.",
+              "Developed & managed more than 10 AR & 5 VR games.",
+            ]
+        },
+      ],
+    },
+  ],
+  projects: [
+    {
+      name: "Spotifu Music",
+      summary: "A music streaming app that emulates Spotify's core features.",
+      linkPreview: "/",
+      linkSource: "https://github.com/immois/astro-zen",
+      image: "/spotifu.png",
+    },
+    {
+      name: "Shopp App",
+      summary: "An e-commerce platform that replicates Shopify's key features.",
+      linkPreview: "/",
+      linkSource: "https://github.com/immois/astro-zen",
+      image: "/shopify-clon.png",
+    },
+    {
+      name: "ClonTagram",
+      summary: "A social network that replicates the features of Instagram",
+      linkPreview: "/",
+      linkSource: "https://github.com/immois/astro-zen",
+      image: "/clone-ig.png",
+    },
+  ]
+};
+
+// #5755ff
