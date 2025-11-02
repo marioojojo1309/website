@@ -8,9 +8,9 @@ export const SITE_CONFIG: SiteConfig = {
   lang: "en",
   siteLogo: "/jay-img-small.jpg",
   navLinks: [
-    { text: "About", href: "#about" },
-    { text: "Experience", href: "#experience" },
-    { text: "Projects", href: "#projects" },
+    { text: "Experience", href: "/#experience" },
+    { text: "Projects", href: "/#projects" },
+    { text: "About", href: "/#about" }
   ],
   socialLinks: [
     { text: "LinkedIn", href: "https://www.linkedin.com/in/marioojojo" },
@@ -56,6 +56,20 @@ export const SITE_CONTENT: SiteContent = {
       company: "PlayShifu",
       roles: [
         {
+          position: "Senior Product Manager",
+          startDate: "Jul 2021",
+          endDate: "Mar 2023",
+          summary: [
+            "Scaled the Orboot Brand from a single product to a 3-product line (Earth, Dinos, Mars), achieving 200% product portfolio growth.",
+            "Led hands-on development of 30+ interactive games across Orboot, Plugo, and Tacto ecosystems.",
+            "Managed product development for Tacto, finalist for Toy of the Year Award 2022, from concept to market release.",
+            "Executed international playtesting across India and USA, validating product-market fit.",
+            "Delivered the Tacto Suite of Phygital Games, leading the full product lifecycle from ideation to global launch.",
+            "Orchestrated product localization and distribution strategy, successfully entering 20+ global markets.",
+            "Collaborated closely with operations to ensure smooth product deployment and scaling.",
+          ],
+        },
+        /*{
           position: "Associate Product Director",
           startDate: "Jul 2022",
           endDate: "Mar 2023",
@@ -75,7 +89,7 @@ export const SITE_CONTENT: SiteContent = {
             "Orchestrated product localization and distribution strategy, successfully entering 20+ global markets.",
             "Collaborated closely with operations to ensure smooth product deployment and scaling.",
           ],
-        },
+        },*/
         {
           position: "Product Manager",
           startDate: "Apr 2020",
@@ -112,27 +126,60 @@ export const SITE_CONTENT: SiteContent = {
         },
       ],
     },
+    {
+      company: "Pescados Software India",
+      roles: [
+        {
+          position: "Senior Game Developer",
+          startDate: "Jan 2015",
+          endDate: "Jul 2015",
+          summary: [
+              "Developed and released the official virtual world for Real Madrid F.C.",
+            ]
+        },
+      ],
+    },
+    {
+      company: "IndusGeeks Inc.",
+      roles: [
+        {
+          position: "Senior Game Developer",
+          startDate: "Jun 2012",
+          endDate: "Aug 2014",
+          summary: [
+              "Engineered core system architecture for medical simulation platforms, contributing to realistic training solutions.",
+            ]
+        },
+      ],
+    },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "Terra Studio Lite",
+      summary: "A game-maker tool which helps game designers make high fidelity 3d games from their browsers with no coding knowledge required",
+      linkPreview: "/terra-studio-details",
+      //linkSource: "https://github.com/immois/astro-zen",
+      image: "/terra-studio-lite.jpg",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
+      name: "Terra Studio Pro",
+      summary: "A layer on top of Unity's Game Engine which helps developers make games for Terra with a hot-reload functionality to deploy games to Terra with ease",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
+      //linkSource: "https://github.com/immois/astro-zen",
       image: "/shopify-clon.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
+      name: "Rainbow Obby : A Case Study",
+      summary: "A simple obby game made for Terra that showcases how simple game with user-facing design increases a games' replayability",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
+      //linkSource: "https://github.com/immois/astro-zen",
+      image: "/clone-ig.png",
+    },
+    {
+      name: "Tacto",
+      summary: "A Phygital gaming ecosystem with 5 tactile kits and 20+ games",
+      linkPreview: "/",
+      //linkSource: "https://github.com/immois/astro-zen",
       image: "/clone-ig.png",
     },
   ]

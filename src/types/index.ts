@@ -39,7 +39,7 @@ export interface ProjectProps {
   summary: string;
   image: string;
   linkPreview?: string;
-  linkSource?: string;
+  //linkSource?: string;
 }
 
 export interface AboutProps {
