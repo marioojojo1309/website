@@ -190,40 +190,19 @@ export const SITE_CONTENT: SiteContent = {
       image: "/clone-ig.png",
     },
   ],
-  skills: [
-    {
-      skill: "Unity3D",
-    },
-    {
-      skill: "C#",
-    },
-    {
-      skill: "Strategic Product Management",
-    },
-    {
-      skill: "End-to-End Product Lifecycle",
-    },
-    {
-      skill: "Ownership",
-    },
-    {
-      skill: "Cross-functional Team",
-    },
-    {
-      skill: "Leadership",
-    },
-    {
-      skill: "Agile & Lean Methodologies",
-    },
-    {
-      skill: "Data-driven Decision Making",
-    },
-    {
-      skill: "MVP Development & Market Validation",
-    },
-    {
-      skill: "Mentoring & Team Building",
-    },
+  corecompetencies: [
+    { cc: "Game Development (3D and 2D)", },
+    { cc: "Game Production", },
+    { cc: "Strategic Product Management", },
+    { cc: "End-to-End Product Lifecycle Ownership", },
+    { cc: "Cross-functional Team Leadership", },
+    { cc: "Agile & Lean Methodologies", },
+    { cc: "Phygital Product Design", },
+    { cc: "Data-driven Decision Making", },
+    { cc: "Global Product Localization" },
+    { cc: "MVP Development & Market Validation", },
+    { cc: "Effective Stakeholder Communication", },
+    { cc: "Mentoring & Team Building", },
   ]
 };
 
