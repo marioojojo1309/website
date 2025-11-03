@@ -120,9 +120,9 @@ export const SITE_CONTENT: SiteContent = {
           startDate: "Apr 2016",
           endDate: "Oct 2017",
           summary: [
-              "Lead game developer on 3D Pro Badminton Challenge, developed for PNB Metlife.",
-              "Developed & managed more than 10 AR & 5 VR games.",
-            ]
+            "Lead game developer on 3D Pro Badminton Challenge, developed for PNB Metlife.",
+            "Developed & managed more than 10 AR & 5 VR games.",
+          ]
         },
       ],
     },
@@ -134,8 +134,8 @@ export const SITE_CONTENT: SiteContent = {
           startDate: "Jan 2015",
           endDate: "Jul 2015",
           summary: [
-              "Developed and released the official virtual world for Real Madrid F.C.",
-            ]
+            "Developed and released the official virtual world for Real Madrid F.C.",
+          ]
         },
       ],
     },
@@ -147,8 +147,8 @@ export const SITE_CONTENT: SiteContent = {
           startDate: "Jun 2012",
           endDate: "Aug 2014",
           summary: [
-              "Engineered core system architecture for medical simulation platforms, contributing to realistic training solutions.",
-            ]
+            "Engineered core system architecture for medical simulation platforms, contributing to realistic training solutions.",
+          ]
         },
       ],
     },
@@ -181,6 +181,48 @@ export const SITE_CONTENT: SiteContent = {
       linkPreview: "/",
       //linkSource: "https://github.com/immois/astro-zen",
       image: "/clone-ig.png",
+    },
+    {
+      name: "Orboot",
+      summary: "A AR-Globe that helps kids learn more about the world",
+      linkPreview: "/",
+      //linkSource: "https://github.com/immois/astro-zen",
+      image: "/clone-ig.png",
+    },
+  ],
+  skills: [
+    {
+      skill: "Unity3D",
+    },
+    {
+      skill: "C#",
+    },
+    {
+      skill: "Strategic Product Management",
+    },
+    {
+      skill: "End-to-End Product Lifecycle",
+    },
+    {
+      skill: "Ownership",
+    },
+    {
+      skill: "Cross-functional Team",
+    },
+    {
+      skill: "Leadership",
+    },
+    {
+      skill: "Agile & Lean Methodologies",
+    },
+    {
+      skill: "Data-driven Decision Making",
+    },
+    {
+      skill: "MVP Development & Market Validation",
+    },
+    {
+      skill: "Mentoring & Team Building",
     },
   ]
 };
