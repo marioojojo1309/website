@@ -14,7 +14,8 @@ export const SITE_CONFIG: SiteConfig = {
   ],
   socialLinks: [
     { text: "LinkedIn", href: "https://www.linkedin.com/in/marioojojo" },
-    { text: "Github", href: "https://github.com/marioojojo13" },
+    //{ text: "Github", href: "https://github.com/marioojojo13" },
+    //{ text: "Resume", href: "https://marioojojo.com/resume" },
   ],
   socialImage: "/jay-img.jpg",
   canonicalURL: "https://jay-vora.vercel.app",
