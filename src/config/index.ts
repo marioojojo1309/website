@@ -3,6 +3,7 @@ import type { SiteConfig, SiteContent } from "../types";
 export const SITE_CONFIG: SiteConfig = {
   title: "Jay Vora - Product | Tech",
   author: "Jay Vora",
+  websitename:"marioojojo",
   description:
     "Game Developer turned Product Manager from Goa, India. I love working with early stage startups and help them scale from 0 to 1",
   lang: "en",
