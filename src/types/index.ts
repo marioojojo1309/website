@@ -14,10 +14,15 @@ export interface SiteContent {
   projects: ProjectProps[];
   about: AboutProps;
   corecompetencies: CoreCompetenciesProps[];
+  tools: ToolProps[];
 }
 
 export interface CoreCompetenciesProps {
   cc: string;
+}
+
+export interface ToolProps {
+  tool: string;
 }
 
 export interface HeroProps {
@@ -34,9 +39,9 @@ export interface ExperienceProps {
 
 export interface ExperienceRoles {
   position: string;
-  startDate:string;
-  endDate:string;
-  summary:string | string[];
+  startDate: string;
+  endDate: string;
+  summary: string | string[];
 }
 
 export interface ProjectProps {

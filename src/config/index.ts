@@ -193,6 +193,7 @@ export const SITE_CONTENT: SiteContent = {
   corecompetencies: [
     { cc: "Game Development (3D and 2D)", },
     { cc: "Game Production", },
+    { cc: "Game Design", },
     { cc: "Strategic Product Management", },
     { cc: "End-to-End Product Lifecycle Ownership", },
     { cc: "Cross-functional Team Leadership", },
@@ -203,7 +204,29 @@ export const SITE_CONTENT: SiteContent = {
     { cc: "MVP Development & Market Validation", },
     { cc: "Effective Stakeholder Communication", },
     { cc: "Mentoring & Team Building", },
-  ]
+    { cc: "UI/UX", },
+    { cc: "Wireframing", },
+  ],
+  tools:[
+    {tool:"Unity3D"},
+    {tool:"C#"},
+    {tool:"Git"},
+    {tool:"Figma"},
+    {tool:"Notion"},
+    {tool:"Mixpanel"},
+    {tool:"Google Analytics"},
+    {tool:"OneSignal"},
+    {tool:"Jira"},
+    {tool:"Postman"},
+    {tool:"Miro"},
+    {tool:"AWS"},
+    {tool:"GCP"},
+    {tool:"C++"},
+    {tool:"Javascript"},
+    {tool:"React"},
+    {tool:"TailwindCSS"},
+    {tool:"Astro"},
+  ],
 };
 
 // #5755ff
