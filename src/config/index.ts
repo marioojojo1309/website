@@ -157,39 +157,43 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
-      name: "Terra Studio Lite",
-      summary: "A game-maker tool which helps game designers make high fidelity 3d games from their browsers with no coding knowledge required",
-      linkPreview: "/terra-studio-details",
+      name: "Terra Studio",
+      summary: "A game-maker studio tool designed for both game designers and developers, enabling them to create and deploy immersive 3D experiences directly to the Terra Platform",
+      linkPreview: "/terrastudio",
+      urlopentype:"_blank",
       //linkSource: "https://github.com/immois/astro-zen",
       image: "/terra-studio-lite.jpg",
     },
-    {
-      name: "Terra Studio Pro",
-      summary: "A layer on top of Unity's Game Engine which helps developers make games for Terra with a hot-reload functionality to deploy games to Terra with ease",
-      linkPreview: "/",
-      //linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
-    },
+    // {
+    //   name: "Terra Studio Pro",
+    //   summary: "A layer on top of Unity's Game Engine which helps developers make games for Terra with a hot-reload functionality to deploy games to Terra with ease",
+    //   linkPreview: "/",
+    //   //linkSource: "https://github.com/immois/astro-zen",
+    //   image: "/shopify-clon.png",
+    // },
     {
       name: "Rainbow Obby : A Case Study",
       summary: "A simple obby game made for Terra that showcases how simple game with user-facing design increases a games' replayability",
       linkPreview: "/",
+      urlopentype:"_blank",
       //linkSource: "https://github.com/immois/astro-zen",
       image: "/clone-ig.png",
     },
     {
       name: "Tacto",
       summary: "A Phygital gaming ecosystem with 5 tactile kits and 20+ games",
-      linkPreview: "/",
+      linkPreview: "https://www.playshifu.com/shop/category/tacto-board-games",
+      urlopentype:"_blank",
       //linkSource: "https://github.com/immois/astro-zen",
       image: "/clone-ig.png",
     },
     {
       name: "Orboot",
       summary: "A AR-Globe that helps kids learn more about the world",
-      linkPreview: "/",
+      linkPreview: "https://www.playshifu.com/product/orboot-earth-globe-toy",
+      urlopentype:"_blank",
       //linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      image: "/orboot-earth.jpg",
     },
   ],
   corecompetencies: [
@@ -229,6 +233,7 @@ export const SITE_CONTENT: SiteContent = {
     {tool:"TailwindCSS"},
     {tool:"Astro"},
   ],
+  terrastudio:"",
 };
 
 // #5755ff

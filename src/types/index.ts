@@ -16,6 +16,7 @@ export interface SiteContent {
   about: AboutProps;
   corecompetencies: CoreCompetenciesProps[];
   tools: ToolProps[];
+  terrastudio:string;
 }
 
 export interface CoreCompetenciesProps {
@@ -50,6 +51,7 @@ export interface ProjectProps {
   summary: string;
   image: string;
   linkPreview?: string;
+  urlopentype:string;
   //linkSource?: string;
 }
 
