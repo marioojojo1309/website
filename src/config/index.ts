@@ -159,7 +159,7 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "Terra Studio",
       summary: "A game-maker studio tool designed for both game designers and developers, enabling them to create and deploy immersive 3D experiences directly to the Terra Platform",
-      linkPreview: "/terrastudio",
+      linkPreview: "https://sleep-shock-55654475.figma.site",
       urlopentype:"_blank",
       //linkSource: "https://github.com/immois/astro-zen",
       image: "/terra-studio-lite.jpg",
