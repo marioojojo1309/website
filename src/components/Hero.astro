@@ -17,7 +17,7 @@ const { name, specialty, summary, email } = Astro.props;
     {specialty}
   </p>
   <p class="mb-16 text-base font-normal text-neutral md:text-lg">
-    {summary}
+    <Fragment set:html={summary}/>
   </p>
 
   <a
