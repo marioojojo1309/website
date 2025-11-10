@@ -189,7 +189,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "Orboot",
-      summary: "A AR-Globe that helps kids learn more about the world",
+      summary: "An AR-powered Globe that helps kids learn more about the world",
       linkPreview: "https://www.playshifu.com/product/orboot-earth-globe-toy",
       urlopentype:"_blank",
       //linkSource: "https://github.com/immois/astro-zen",
