@@ -16,7 +16,8 @@ export const SITE_CONFIG: SiteConfig = {
   socialLinks: [
     { text: "LinkedIn", href: "https://www.linkedin.com/in/marioojojo" },
     //{ text: "Github", href: "https://github.com/marioojojo13" },
-    { text: "Resume", href: "https://drive.google.com/file/d/1fWNt4Ah04oKQGmXZTSZLce9MPR-_rZZg/view?usp=drive_link" },
+    //{ text: "Resume", href: "https://drive.google.com/file/d/1fWNt4Ah04oKQGmXZTSZLce9MPR-_rZZg/view?usp=drive_link" },
+    { text: "Resume", href: "https://drive.google.com/file/d/1d253QSJeP9QbdMyQ4YusYM2Fn-LT5QAi/view?usp=drive_link" },
   ],
   socialImage: "/jay-img.jpg",
   canonicalURL: "https://jay-vora.vercel.app",
@@ -32,9 +33,9 @@ export const SITE_CONTENT: SiteContent = {
   },
   about: {
     description: `
-      Hi, I’m Jay Vora, a Game Developer turned Product Manager with a knack for crafting seamless digital experiences beyond games. With a strong background as a game developer and a product manager, I thrive at the intersection where business meets technology. Over the years, I’ve honed my skills in building robust games and applications that are user-first and push the boundaries of what is possible. My projects range from simple and replayable platformer games to making a custom no-code game engine that can make high fidelity 3D games via a browser. 
+      Hi, I’m Jay Vora, a Game Developer turned Product Manager with a knack for crafting seamless digital experiences beyond games. My blend of hands-on development experience and strategic product mindset allows me to thrive at the intersection where business meets technology. Over the years, I’ve honed my skills in building robust games and applications that are user-first and push the boundaries of what is possible. My projects range from simple and replayable platformer games to making a custom no-code game engine that can make high fidelity 3D games via a browser. 
 
-      I have spent the last 10 years of my career helping early stage startups scale from 0 to 1 by wearing multiple hats as required and achieving results that help shape the product.
+      I have spent the last 10 years of my career helping early stage startups scale from 0 to 1 to 10 by wearing multiple hats as required and achieving results that help shape the product.
     `,
     image: "/jay-img.jpg",
   },
@@ -43,7 +44,7 @@ export const SITE_CONTENT: SiteContent = {
       company: "TerraByte Inc",
       roles: [
         {
-          position: "Associate Director - Product & Tech (Found Team Member)",
+          position: "Associate Director - Product & Tech (Founding Team Member)",
           startDate: "Mar 2023",
           endDate: "Sept 2025",
           summary: [
