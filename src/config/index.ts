@@ -48,8 +48,8 @@ export const SITE_CONTENT: SiteContent = {
           endDate: "Sept 2025",
           summary: [
             "Spearheaded the delivery of 5 high-impact MVPs, driving product innovation across research, design, tech, and marketing functions.",
-            "Served as Product Lead for Terra Studio, a low-code platform enabling 3D game creation directly in browsers, accelerating development cycles.",
-            "Championed hot deployment technology, enabling instant go-live of games, dramatically improving time-to-market.",
+            "Served as Product Lead for Terra Studio, a low-code platform enabling 3D game creation directly in browsers, accelerating development cycles",
+            "Championed hot deployment technology, enabling instant go-live of games, which helped the team in releasing 30+ high fidelity 3D games for Terra Platform",
           ],
         }
       ]
