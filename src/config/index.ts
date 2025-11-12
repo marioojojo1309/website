@@ -55,12 +55,72 @@ export const SITE_CONTENT: SiteContent = {
         }
       ]
     },
+    // {
+    //   company: "PlayShifu",
+    //   roles: [
+    //     {
+    //       position: "Senior Product Manager",
+    //       startDate: "Jul 2021",
+    //       endDate: "Mar 2023",
+    //       summary: [
+    //         "Scaled the Orboot Brand from a single product to a 3-product line (Earth, Dinos, Mars), achieving 200% product portfolio growth.",
+    //         "Led hands-on development of 30+ interactive games across Orboot, Plugo, and Tacto ecosystems.",
+    //         "Managed product development for Tacto, finalist for Toy of the Year Award 2022, from concept to market release.",
+    //         "Executed international playtesting across India and USA, validating product-market fit.",
+    //         "Delivered the Tacto Suite of Phygital Games, leading the full product lifecycle from ideation to global launch.",
+    //         "Orchestrated product localization and distribution strategy, successfully entering 20+ global markets.",
+    //         "Collaborated closely with operations to ensure smooth product deployment and scaling.",
+    //       ],
+    //     },
+    //     /*{
+    //       position: "Associate Product Director",
+    //       startDate: "Jul 2022",
+    //       endDate: "Mar 2023",
+    //       summary: [
+    //         "Scaled the Orboot Brand from a single product to a 3-product line (Earth, Dinos, Mars), achieving 200% product portfolio growth.",
+    //         "Led hands-on development of 30+ interactive games across Orboot, Plugo, and Tacto ecosystems.",
+    //         "Managed product development for Tacto, finalist for Toy of the Year Award 2022, from concept to market release.",
+    //         "Executed international playtesting across India and USA, validating product-market fit.",
+    //       ],
+    //     },
+    //     {
+    //       position: "Senior Product Manager",
+    //       startDate: "Jul 2021",
+    //       endDate: "Jun 2022",
+    //       summary: [
+    //         "Delivered the Tacto Suite of Phygital Games, leading the full product lifecycle from ideation to global launch.",
+    //         "Orchestrated product localization and distribution strategy, successfully entering 20+ global markets.",
+    //         "Collaborated closely with operations to ensure smooth product deployment and scaling.",
+    //       ],
+    //     },*/
+    //     {
+    //       position: "Product Manager",
+    //       startDate: "Apr 2020",
+    //       endDate: "Jun 2021",
+    //       summary: [
+    //         "Led R&D for monetization features in Orboot Earth, integrating new business models and expanding revenue streams.",
+    //         "Designed and released 3 new interactive games utilizing the physical globe as an input device, improving product engagement and user retention.",
+    //         "Worked cross functionally with design, development, and business teams to define and deliver prioritized product features.",
+    //       ],
+    //     },
+    //     {
+    //       position: "Senior Game Developer",
+    //       startDate: "Nov 2017",
+    //       endDate: "Mar 2020",
+    //       summary: [
+    //         "Architected core systems for Orboot, Tacto, and Minglings game lines, establishing a modular and scalable codebase.",
+    //         "Conceptualized, designed, and developed 5+ immersive games, directly contributing to user engagement.",
+    //         "Mentored and led a high performing game development team, driving best practices and development efficiency.",
+    //       ],
+    //     },
+    //   ],
+    // },
     {
       company: "PlayShifu",
       roles: [
         {
-          position: "Senior Product Manager",
-          startDate: "Jul 2021",
+          position: "Lead Developer turned Associate Product Director",
+          startDate: "Nov 2017",
           endDate: "Mar 2023",
           summary: [
             "Scaled the Orboot Brand from a single product to a 3-product line (Earth, Dinos, Mars), achieving 200% product portfolio growth.",
@@ -70,44 +130,9 @@ export const SITE_CONTENT: SiteContent = {
             "Delivered the Tacto Suite of Phygital Games, leading the full product lifecycle from ideation to global launch.",
             "Orchestrated product localization and distribution strategy, successfully entering 20+ global markets.",
             "Collaborated closely with operations to ensure smooth product deployment and scaling.",
-          ],
-        },
-        /*{
-          position: "Associate Product Director",
-          startDate: "Jul 2022",
-          endDate: "Mar 2023",
-          summary: [
-            "Scaled the Orboot Brand from a single product to a 3-product line (Earth, Dinos, Mars), achieving 200% product portfolio growth.",
-            "Led hands-on development of 30+ interactive games across Orboot, Plugo, and Tacto ecosystems.",
-            "Managed product development for Tacto, finalist for Toy of the Year Award 2022, from concept to market release.",
-            "Executed international playtesting across India and USA, validating product-market fit.",
-          ],
-        },
-        {
-          position: "Senior Product Manager",
-          startDate: "Jul 2021",
-          endDate: "Jun 2022",
-          summary: [
-            "Delivered the Tacto Suite of Phygital Games, leading the full product lifecycle from ideation to global launch.",
-            "Orchestrated product localization and distribution strategy, successfully entering 20+ global markets.",
-            "Collaborated closely with operations to ensure smooth product deployment and scaling.",
-          ],
-        },*/
-        {
-          position: "Product Manager",
-          startDate: "Apr 2020",
-          endDate: "Jun 2021",
-          summary: [
             "Led R&D for monetization features in Orboot Earth, integrating new business models and expanding revenue streams.",
             "Designed and released 3 new interactive games utilizing the physical globe as an input device, improving product engagement and user retention.",
             "Worked cross functionally with design, development, and business teams to define and deliver prioritized product features.",
-          ],
-        },
-        {
-          position: "Senior Game Developer",
-          startDate: "Nov 2017",
-          endDate: "Mar 2020",
-          summary: [
             "Architected core systems for Orboot, Tacto, and Minglings game lines, establishing a modular and scalable codebase.",
             "Conceptualized, designed, and developed 5+ immersive games, directly contributing to user engagement.",
             "Mentored and led a high performing game development team, driving best practices and development efficiency.",
