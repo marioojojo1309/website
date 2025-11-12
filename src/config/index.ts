@@ -43,7 +43,7 @@ export const SITE_CONTENT: SiteContent = {
       company: "TerraByte Inc",
       roles: [
         {
-          position: "Associate Director - Product & Tech",
+          position: "Associate Director - Product & Tech (Found Team Member)",
           startDate: "Mar 2023",
           endDate: "Sept 2025",
           summary: [
