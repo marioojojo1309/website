@@ -4,7 +4,6 @@ import "@fontsource/be-vietnam-pro";
 import "@fontsource-variable/gabarito";
 import { SITE_CONFIG } from "@config";
 import Footer from "@components/Footer.astro";
-import { Analytics } from '@vercel/analytics/next';
 
 const {
   title,
@@ -50,6 +49,5 @@ const ogImgUrl = canonicalURL + socialImage;
       <slot />
     </main>
     <Footer author={author} socialLinks={socialLinks} websitename={websitename} />
-    <Analytics />
   </body>
 </html>
