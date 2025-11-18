@@ -51,7 +51,7 @@ export const SITE_CONTENT: SiteContent = {
             "Product & Tech Lead for Terra Studio - A game maker tool that allows creators to make and deploy high fidelity 3D games on the Terra Platform.",
             "Integrated a no-code solution inside Terra Studio which helped game designers make games for Terra.",
             "Integrated an OTA C# compiler that helped game developers hot deploy their games onto Terra Platform without app releases.",
-            "Mentored and helped Game pods to make better games and achieve higher engagement & retention.",
+            "Mentored and helped game pods to improve games and achieve higher engagement & retention.",
             "In charge of all 3D optimizations including writing a custom gltf parser to decrease download time and increase performance on mobile devices.",
             "Helped Terra secure $4M in seed funding from top US and Indian VCs incl. A16z.",
             "Played a key leadership role in pivoting the company from PlayShifu to Terra by ideating, developing, and releasing multiple MVPs for product-market-fit.",
