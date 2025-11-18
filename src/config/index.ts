@@ -17,7 +17,7 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "LinkedIn", href: "https://www.linkedin.com/in/marioojojo" },
     //{ text: "Github", href: "https://github.com/marioojojo13" },
     //{ text: "Resume", href: "https://drive.google.com/file/d/1fWNt4Ah04oKQGmXZTSZLce9MPR-_rZZg/view?usp=drive_link" },
-    { text: "Resume", href: "https://drive.google.com/file/d/1d253QSJeP9QbdMyQ4YusYM2Fn-LT5QAi/view?usp=drive_link" },
+    { text: "Resume", href: "https://drive.google.com/file/d/1YvAALYvzcrCf7ecSinx92CDjErpVcVrP/view?usp=sharing" },
   ],
   socialImage: "/jay-img.jpg",
   canonicalURL: "https://jay-vora.vercel.app",
