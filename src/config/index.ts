@@ -28,7 +28,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Jay Vora",
     specialty: "Game Developer | Product Manager",
     summary:
-      "Game Developer turned Product Manager based in Goa, India.<br>I thrive in the 0 to 1 zone; where problems are fuzzy, timelines are tight, and smart decisions matter most<br>And when I’m not solving problems, I’m probably trying to beat someone at a board game.",
+      "Game Developer turned Product Manager based in Goa, India.<br>I thrive in the 0 to 1 zone; where problems are fuzzy, timelines are tight, and smart decisions matter most.<br>And when I’m not solving problems, I’m probably trying to beat someone at a board game.",
     email: "marioojojo@gmail.com?subject=Hello World!",
   },
   about: {
