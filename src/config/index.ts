@@ -41,6 +41,20 @@ export const SITE_CONTENT: SiteContent = {
   },
   experience: [
     {
+      company: "Freelance",
+      roles: [
+        {
+          position: "Consultant",
+          startDate: "Sept 2025",
+          endDate: "Present",
+          summary: [
+            "Product Consultant working with an early stage startup that makes educational games for kids.",
+            "Game Consultant for an early stage startup working on AI-powered mobile games.",
+          ],
+        }
+      ]
+    },
+    {
       company: "TerraByte Inc",
       roles: [
         {
