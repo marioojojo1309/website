@@ -42,6 +42,7 @@ export const SITE_CONTENT: SiteContent = {
   experience: [
     {
       company: "Freelance",
+      description:"Freelancing as a Product Consultant for 2 early stage startups",
       roles: [
         {
           position: "Consultant",
@@ -56,6 +57,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       company: "TerraByte Inc",
+      description:"A startup that is developing a metaverse and a gaming platform for children and Gen Z users. They are focused on building immersive 3D social, learning, and gaming platforms, as well as a game engine called \"Terra Studio\" that enables creators to build and deploy games instantly. ",
       roles: [
         {
           position: "Associate Director - Product & Tech (Founding Team Member)",
@@ -136,6 +138,7 @@ export const SITE_CONTENT: SiteContent = {
     // },
     {
       company: "PlayShifu",
+      description:"A leading educational toy company that creates \"phygital\" (physical and digital) learning experiences for children aged 4-12",
       roles: [
         {
           position: "Lead Developer turned Associate Product Director",
@@ -155,6 +158,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       company: "DigiFury Solutions",
+      description:"A media company working on creating content for other companies",
       roles: [
         {
           position: "Lead Game Developer",
@@ -169,6 +173,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       company: "Pescados Software India",
+      description:"A software company hired by Real Madrid FC to create their virtual world",
       roles: [
         {
           position: "Senior Game Developer",
@@ -182,6 +187,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       company: "IndusGeeks Inc.",
+      description:"An award-winning EdTech company that specializes in creating game-based learning, simulation-based training, and gamification solutions for corporate training and education. They transform traditional e-learning content into interactive, immersive, and narrative-driven experiences. ",
       roles: [
         {
           position: "Senior Game Developer",

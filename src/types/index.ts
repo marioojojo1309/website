@@ -36,6 +36,7 @@ export interface HeroProps {
 
 export interface ExperienceProps {
   company: string;
+  description:string;
   roles: ExperienceRoles[];
 }
 
