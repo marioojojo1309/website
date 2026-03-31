@@ -14,7 +14,7 @@ const currentYear = new Date().getFullYear();
     {
       socialLinks.map(({ text, href }) => (
         <li>
-          <a
+          <a onclick={`mixpanel.track('FooterButton_Clicked', { 'button_name': '${text}' })`}
             href={href}
             target="_blank"
             class="inline-block px-4 py-3 after:relative after:bottom-[-4px] after:content-[url(/external.svg)] hover:text-primary"

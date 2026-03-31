@@ -20,7 +20,7 @@ const { name, specialty, summary, email } = Astro.props;
     <Fragment set:html={summary}/>
   </p>
 
-  <a
+  <a onclick={`mixpanel.track('GetInTouch_Clicked')`}
     class="inline-block rounded-full bg-primary px-8 py-5 text-sm leading-5 font-medium text-[#fff] transition-shadow duration-400 ease-in-out hover:bg-primary hover:shadow-lg hover:shadow-primary/50"
     href={`mailto:${email}`}>Get in Touch</a
   >
