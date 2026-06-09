@@ -9,6 +9,7 @@ export const SITE_CONFIG: SiteConfig = {
   lang: "en",
   siteLogo: "/jay-img-small.jpg",
   navLinks: [
+    { text: "Achievements", href: "/#selectedachievements" },
     { text: "Experience", href: "/#experience" },
     { text: "Projects", href: "/#projects" },
     { text: "About", href: "/#about" }
@@ -17,7 +18,7 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "LinkedIn", href: "https://www.linkedin.com/in/marioojojo" },
     //{ text: "Github", href: "https://github.com/marioojojo13" },
     //{ text: "Resume", href: "https://drive.google.com/file/d/1fWNt4Ah04oKQGmXZTSZLce9MPR-_rZZg/view?usp=drive_link" },
-    { text: "Resume", href: "https://drive.google.com/file/d/1EaFlo_IyfrdLcIkAW2YNUrPzbJTjmoTF/view?usp=sharing"},
+    { text: "Resume", href: "https://drive.google.com/file/d/1EaFlo_IyfrdLcIkAW2YNUrPzbJTjmoTF/view?usp=sharing" },
   ],
   socialImage: "/jay-img.jpg",
   canonicalURL: "https://jay-vora.vercel.app",
@@ -26,47 +27,57 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Jay Vora",
-    specialty: "Game Developer | Product Manager",
+    specialty: "Senior Game Producer & Product Leader",
     summary:
-    "Game Developer turned Product Manager with 13 years of experience.<br>I thrive in the 0 to 1 zone; where problems are complex, timelines are tight, and smart innovative solutions matter the most.<br><i>Jack of all trades, master of some</i>",
+      "Game Developer turned Product Manager with 13 years of experience.<br>I thrive in the 0 to 1 zone; where problems are complex, timelines are tight, and smart innovative solutions matter the most.<br><i>Jack of all trades, master of some</i>",
     email: "marioojojo@gmail.com?subject=Hello World!",
   },
   about: {
     description:
-    //"Hi, I’m Jay Vora, a Game Developer turned Product Manager with a knack for crafting seamless digital experiences beyond games. My blend of hands-on development experience and strategic product mindset allows me to thrive at the intersection where business meets technology. Over the years, I’ve honed my skills in building robust games and applications that are user-first and push the boundaries of what is possible. My projects range from simple and replayable platformer games to making a custom no-code game engine that can make high fidelity 3D games via a browser. I have spent the last 10 years of my career helping early stage startups scale from 0 to 1 to 10 by wearing multiple hats as required and achieving results that help shape the product."
-    "Hi, I'm Jay Vora, a Game Developer turned Product Manager with 13+ years of experience in the gaming industry, specializing in game development and game production. I've led the production cycles for end-to-end games, including developing custom game engines, game tools, and live-ops pipelines that resulted in 45%+ D1 retention. I've worked with early stage startups for 10+ years helping them achieve Product/Market Fit and secure multiple rounds of funding."
-      ,
+      //"Hi, I’m Jay Vora, a Game Developer turned Product Manager with a knack for crafting seamless digital experiences beyond games. My blend of hands-on development experience and strategic product mindset allows me to thrive at the intersection where business meets technology. Over the years, I’ve honed my skills in building robust games and applications that are user-first and push the boundaries of what is possible. My projects range from simple and replayable platformer games to making a custom no-code game engine that can make high fidelity 3D games via a browser. I have spent the last 10 years of my career helping early stage startups scale from 0 to 1 to 10 by wearing multiple hats as required and achieving results that help shape the product."
+      "Hi, I am Jay Vora, a Game Producer and Product Leader with 13+ years of experience shipping games, consumer products, developer tools, and live-service platforms. Experienced in leading cross-functional teams from concept to launch while owning production, product strategy, analytics, hiring, process improvement, and operational execution. Known for solving complex startup challenges, bridging organizational gaps, and driving measurable improvements in business outcomes, across activation, engagement, and retention. Comfortable operating across product, production, engineering, analytics, and business functions to help teams move faster and execute with clarity."
+    ,
     image: "/jay-img.jpg",
   },
   experience: [
     {
       company: "Freelance",
-      description:"Freelancing as a Product Consultant for 2 gaming startups",
+      description: "",
+      // description: "Freelancing as a Product Consultant",
       roles: [
         {
           position: "Consultant",
           startDate: "Sept 2025",
           endDate: "Present",
           summary: [
-            "<u>Stealth Gaming Startup</u>: Roadmap planning and strategy ownership to help founders achieve PMF, by prioritizing features with tight deadlines and a small team.",
-            "<u>PlayShifu</u>: Product Consultant at PlayShifu driving ideation, research, and strategy for a new phygital platform to define product vision and the next milestone for the company. Increased activation rate from 55% to 80% across all existing products.",
+            "Owned product strategy and roadmap planning for an early-stage gaming startup focused on achieving product-market fit.",
+            "Consulted for PlayShifu on product vision, research, and platform strategy.",
+            "Improved activation from 55% to 80% and supported growth experiments to improve product adoption and multi-product purchases."
+            // "<u>Stealth Gaming Startup</u>: Roadmap planning and strategy ownership to help founders achieve PMF, by prioritizing features with tight deadlines and a small team.",
+            // "<u>PlayShifu</u>: Product Consultant at PlayShifu driving ideation, research, and strategy for a new phygital platform to define product vision and the next milestone for the company. Increased activation rate from 55% to 80% across all existing products.",
           ],
         }
       ]
     },
     {
       company: "TerraByte Inc",
-      description:"A startup that is developing a metaverse and a gaming platform for children and Gen Z users. They are focused on building immersive 3D social, learning, and gaming platforms, as well as a game engine called \"Terra Studio\" that enables creators to build and deploy games instantly. ",
+      description: "",
+      // description: "A startup that is developing a metaverse and a gaming platform for children and Gen Z users. They are focused on building immersive 3D social, learning, and gaming platforms, as well as a game engine called \"Terra Studio\" that enables creators to build and deploy games instantly.",
       roles: [
         {
           position: "Associate Director - Product & Tech (Founding Team Member)",
           startDate: "Mar 2023",
           endDate: "Sept 2025",
           summary: [
-            "<u>Terra Studio</u>: Launched a game maker tool to create high fidelity 3D games for Terra Platform, which cut down the development time by 70%. This product helped Terra secure $4M in seed funding from top US and Indian VCs including a16z. Developed proprietary compiler for C# code over the air, resulting in a faster live-ops pipeline.",
-            "<u>3D R&D Pipeline</u>: Led the R&D pipeline for games that resulted in running 3D games at 30+ fps on low-end devices, resulting in a broader audience reach. Decreased load times by 90% by optimizing 3D assets using a custom gltf parser and automated pipelines.",
-            "<u>Game Retention</u>: Helped game pods by building features and scalable systems that increased <b>D1 retention to 45% (Top 10% of industry).</b>",
-            "<u>Team building & Organizational strategy</u>: Played a key leadership role in pivoting the company from Playshifu to Terra. Worked closely with the core team to establish Terra's vision, mission and strategy. Hired and built new teams across engineers, designers, and product managers to accelerate Terra’s growth."
+            "Launched a game creation platform that reduced development time by 70% and supported Terra's $4M seed funding round.",
+            "Led platform and tooling initiatives that accelerated content deployment and live-ops execution.",
+            "Leveraged analytics, player behavior insights, experimentation, and feature prioritization to improve D1 retention to 45%, achieving top-decile performance for the category.",
+            "Built and scaled cross-functional teams across product, design, and engineering.",
+            "Established production processes, milestone planning frameworks, and release management practices that improved delivery predictability across multiple concurrent product lines."
+            // "<u>Terra Studio</u>: Launched a game maker tool to create high fidelity 3D games for Terra Platform, which cut down the development time by 70%. This product helped Terra secure $4M in seed funding from top US and Indian VCs including a16z. Developed proprietary compiler for C# code over the air, resulting in a faster live-ops pipeline.",
+            // "<u>3D R&D Pipeline</u>: Led the R&D pipeline for games that resulted in running 3D games at 30+ fps on low-end devices, resulting in a broader audience reach. Decreased load times by 90% by optimizing 3D assets using a custom gltf parser and automated pipelines.",
+            // "<u>Game Retention</u>: Helped game pods by building features and scalable systems that increased <b>D1 retention to 45% (Top 10% of industry).</b>",
+            // "<u>Team building & Organizational strategy</u>: Played a key leadership role in pivoting the company from Playshifu to Terra. Worked closely with the core team to establish Terra's vision, mission and strategy. Hired and built new teams across engineers, designers, and product managers to accelerate Terra’s growth."
             // "Product & Tech Lead for Terra Studio - A game maker tool that allows creators to make and deploy high fidelity 3D games on the Terra Platform.",
             // "Integrated a no-code solution inside Terra Studio which helped game designers make games for Terra.",
             // "Integrated an OTA C# compiler that helped game developers hot deploy their games onto Terra Platform without app releases.",
@@ -141,17 +152,23 @@ export const SITE_CONTENT: SiteContent = {
     // },
     {
       company: "PlayShifu",
-      description:"A leading educational toy company that creates \"phygital\" (physical and digital) learning experiences for children aged 4-12",
+      description: "",
+      // description: "A leading educational toy company that creates \"phygital\" (physical and digital) learning experiences for children aged 4-12",
       roles: [
         {
           position: "Lead Developer turned Associate Product Director",
           startDate: "Nov 2017",
           endDate: "Mar 2023",
           summary: [
-            "<u>Award winning Products</u>: Led production and development of Orboot Earth, winner of multiple Toy Awards, with more than 1M users. Led production of Tacto, a phygital gaming platform, finalist of Toy of the Year award in 2022.",
-            "<u>Game Production</u>: Developed and released 10+ games across Orboot, Plugo, and Tacto which resulted in increasing daily engagement to 60+ minutes.",
-            "<u>Funding Rounds</u>: Expanded Orboot product line to Orboot Earth, Dinos, and Mars which helped PlayShifu raise $11.5M Series-A. Led R&D and product for Tacto which helped PlayShifu raise $17M Series-B.",
-            "<u>PLG</u>: Conceptualized and led development of high-impact features that helped PlayShifu reduce CPI by selling more products via the apps.",
+            "Led award-winning products including Orboot Earth and Tacto, serving more than 1M users.",
+            "Led production and delivery of 40+ educational games and interactive products across mobile, tablet, and physical-digital platforms, coordinating multidisciplinary teams across engineering, design, art, QA, content, and business functions.",
+            "Supported Series A ($11.5M) and Series B ($17M) fundraising through product innovation and expansion.",
+            "Owned product initiatives focused on engagement, retention, and growth.",
+            "Optimized development workflows, tooling, and team structures to improve efficiency and reduce delivery costs."
+            // "<u>Award winning Products</u>: Led production and development of Orboot Earth, winner of multiple Toy Awards, with more than 1M users. Led production of Tacto, a phygital gaming platform, finalist of Toy of the Year award in 2022.",
+            // "<u>Game Production</u>: Developed and released 10+ games across Orboot, Plugo, and Tacto which resulted in increasing daily engagement to 60+ minutes.",
+            // "<u>Funding Rounds</u>: Expanded Orboot product line to Orboot Earth, Dinos, and Mars which helped PlayShifu raise $11.5M Series-A. Led R&D and product for Tacto which helped PlayShifu raise $17M Series-B.",
+            // "<u>PLG</u>: Conceptualized and led development of high-impact features that helped PlayShifu reduce CPI by selling more products via the apps.",
             // "Developed and released Orboot Earth - A phygital AR-powered Globe with 5+ games.",
             // "Ideated, developed, and released Orboot Dinos & Orboot Mars, 2 new AR-powered Globes under the Orboot Brand",
             // "Led the development & management of Tacto - A phygital gaming ecosystem with 7 different kits and 30+ games, which was a finalist for the Toy of The Year award, 2022.",
@@ -165,15 +182,18 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       company: "DigiFury Solutions",
-      description:"A media company working on creating content for other companies",
+      description: "",
+      // description: "A media company working on creating content for other companies",
       roles: [
         {
           position: "Lead Game Developer",
           startDate: "Apr 2016",
           endDate: "Oct 2017",
           summary: [
-            "<u>10M Downloads</u>: Led development of PNB Metlife Badminton 3D that was downloaded 10M+ times with 10% D7 retention (Top 10% of industry).",
-            "<u>Client Projects</u>: Made Games and Products for external partners - Aprilia, The Souled Store, EsselWorld, PNBMetlife, and History TV, and released them on iOS, Android, Windows, Mac, and VR devices."
+            "Led development of a title that achieved 10M+ downloads and top-tier retention metrics.",
+"Delivered products for major enterprise and consumer brands across mobile, desktop, and VR platforms."
+            // "<u>10M Downloads</u>: Led development of PNB Metlife Badminton 3D that was downloaded 10M+ times with 10% D7 retention (Top 10% of industry).",
+            // "<u>Client Projects</u>: Made Games and Products for external partners - Aprilia, The Souled Store, EsselWorld, PNBMetlife, and History TV, and released them on iOS, Android, Windows, Mac, and VR devices."
             // "Lead game developer on 3D Pro Badminton Challenge, developed for PNB Metlife.",
             // "Developed & managed more than 10 AR & 5 VR games.",
           ]
@@ -182,29 +202,33 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       company: "Pescados Software India",
-      description:"A software company hired by Real Madrid FC to create their virtual world",
+      description: "",
+      // description: "A software company hired by Real Madrid FC to create their virtual world",
       roles: [
         {
           position: "Senior Game Developer",
           startDate: "Jan 2015",
           endDate: "Jul 2015",
           summary: [
-            "<u>Virtual Worlds</u>: Developed and released the official virtual world for Real Madrid F.C."
+            "Built an MMO virtual world for Real Madrid FC."
+            // "<u>Virtual Worlds</u>: Developed and released the official virtual world for Real Madrid F.C."
           ]
         },
       ],
     },
     {
       company: "IndusGeeks Inc.",
-      description:"An award-winning EdTech company that specializes in creating game-based learning, simulation-based training, and gamification solutions for corporate training and education. They transform traditional e-learning content into interactive, immersive, and narrative-driven experiences. ",
+      description: "",
+      // description: "An award-winning EdTech company that specializes in creating game-based learning, simulation-based training, and gamification solutions for corporate training and education. They transform traditional e-learning content into interactive, immersive, and narrative-driven experiences. ",
       roles: [
         {
           position: "Senior Game Developer",
           startDate: "Jun 2012",
           endDate: "Aug 2014",
           summary: [
-            "<u>Medical Simulations</u>: Worked on core system architecture for medical simulation platforms, contributing to realistic training solutions",
-            "<u>Virtual Worlds</u>: Developed 3D Virtual Worlds that ran on browsers using Flash Action Script 3.0.",
+            "Contributed to platform architecture and immersive training products."
+            // "<u>Medical Simulations</u>: Worked on core system architecture for medical simulation platforms, contributing to realistic training solutions",
+            // "<u>Virtual Worlds</u>: Developed 3D Virtual Worlds that ran on browsers using Flash Action Script 3.0.",
           ]
         },
       ],
@@ -304,7 +328,17 @@ export const SITE_CONTENT: SiteContent = {
     { tool: "TailwindCSS" },
     { tool: "Astro" },
   ],
-  terrastudio: "",
+  selectedachievements: [
+    { achievement: "Led products with <b>10M+ downloads and 1M+ users.</b>" },
+    { achievement: "Improved activation rates from <b>55% to 80%.</b>" },
+    { achievement: "Increased D1 retention for a mobile gaming platform to <b>45%</b> (top industry performance)." },
+    { achievement: "Reduced development timelines by <b>70%</b> and load times by <b>90%</b>." },
+    { achievement: "Led production of <b>20+ games</b> at PlayShifu." },
+    { achievement: "Hired and mentored <b>30+ team members</b> across engineering, product, design, content, and QA." },
+    { achievement: "Built and scaled teams from early-stage startup environments to multi-product organizations." },
+    { achievement: "Led cross-functional initiatives spanning product strategy, production, analytics, hiring, and organizational planning." },
+    { achievement: "Contributed to product, platform, and growth initiatives supporting <b>$32.5M+ in venture funding outcomes</b>." },
+  ],
 };
 
 // #5755ff

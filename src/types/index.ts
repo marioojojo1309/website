@@ -11,12 +11,16 @@ export interface SiteConfig extends HeaderProps {
 
 export interface SiteContent {
   hero: HeroProps;
+  selectedachievements:SelectedAchievementsProps[];
   experience: ExperienceProps[];
   projects: ProjectProps[];
   about: AboutProps;
   corecompetencies: CoreCompetenciesProps[];
   tools: ToolProps[];
-  terrastudio:string;
+}
+
+export interface SelectedAchievementsProps {
+  achievement: string;
 }
 
 export interface CoreCompetenciesProps {

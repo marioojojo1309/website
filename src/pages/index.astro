@@ -2,6 +2,7 @@
 import { SITE_CONTENT } from "@config";
 import Hero from "@components/Hero.astro";
 import Layout from "@layouts/Layout.astro";
+import SelectedAchievements from "@components/SelectedAchievements.astro";
 import Experience from "@components/Experience.astro";
 import Projects from "@components/Projects.astro";
 import About from "@components/About.astro";
@@ -13,6 +14,7 @@ import "../styles/global.css";
 
 <Layout>
   <Hero {...SITE_CONTENT.hero} />
+  <SelectedAchievements selectedachievements={SITE_CONTENT.selectedachievements}/>
   <Experience experience={SITE_CONTENT.experience} />
   <CoreCompetencies corecompetencies={SITE_CONTENT.corecompetencies} />
   <Tools tools={SITE_CONTENT.tools} />
